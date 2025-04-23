@@ -48,16 +48,6 @@ const config: HardhatUserConfig = {
      * transitive dependencies, multiple versions of the same package,
      * monorepos, etc.).
      */
-    remappings: [
-      /*
-       * This remapping is added to the example because most people import
-       * forge-std/Test.sol, not forge-std/src/Test.sol.
-       *
-       * Note: The config currently leaks internal IDs, but this will be fixed
-       * in the future.
-       */
-      "forge-std/=npm/forge-std@1.9.4/src/",
-    ],
   },
   /*
    * The `networks` configuration is mostly compatible with Hardhat 2.

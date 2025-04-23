@@ -6,6 +6,8 @@ settings:
 
 importers:
 
+  .: {}
+
   packages/contracts:
     devDependencies:
       '@nomicfoundation/hardhat-toolbox-viem':
@@ -14,9 +16,6 @@ importers:
       '@types/node':
         specifier: ^22.8.5
         version: 22.14.1
-      forge-std:
-        specifier: github:foundry-rs/forge-std#v1.9.4
-        version: https://codeload.github.com/foundry-rs/forge-std/tar.gz/1eea5bae12ae557d589f9f0f0edae2faa47cb262
       hardhat:
         specifier: ^3.0.0-next.4
         version: 3.0.0-next.4
@@ -794,10 +793,6 @@ packages:
   fast-equals@5.2.2:
     resolution: {integrity: sha512-V7/RktU11J3I36Nwq2JnZEM7tNm17eBJz+u25qdxBZeCKiX6BkVSZQjwWIr+IobgnZy+ag73tTZgZi7tr0LrBw==}
     engines: {node: '>=6.0.0'}
-
-  forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/1eea5bae12ae557d589f9f0f0edae2faa47cb262:
-    resolution: {tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/1eea5bae12ae557d589f9f0f0edae2faa47cb262}
-    version: 1.9.4
 
   forwarded-parse@2.1.2:
     resolution: {integrity: sha512-alTFZZQDKMporBH77856pXgzhEzaUVmLCDk+egLgIgHst3Tpndzz8MnKe+GzRJRfvVdn69HhpW7cmXzvtLvJAw==}
@@ -1934,8 +1929,6 @@ snapshots:
   eventemitter3@5.0.1: {}
 
   fast-equals@5.2.2: {}
-
-  forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/1eea5bae12ae557d589f9f0f0edae2faa47cb262: {}
 
   forwarded-parse@2.1.2: {}
 
