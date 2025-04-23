@@ -6,6 +6,7 @@
   "scripts": {
     "test": "hardhat test"
   },
+  "packageManager": "pnpm@9.15.4",
   "keywords": [],
   "author": "",
   "license": "ISC",
