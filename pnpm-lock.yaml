@@ -6,7 +6,7 @@ settings:
 
 importers:
 
-  .:
+  packages/contracts:
     devDependencies:
       '@nomicfoundation/hardhat-toolbox-viem':
         specifier: ^4.0.0-next.4
